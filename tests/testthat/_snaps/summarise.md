@@ -77,7 +77,7 @@
       summarise(df2)
     Condition
       Error in `summarise()`:
-      ! Can't transform a data frame with `NA` or `""` names.
+      ! Can't transform a data frame with missing names.
 
 # summarise() gives meaningful errors
 
@@ -124,7 +124,7 @@
       <error/rlang_error>
       Error in `summarise()`:
       i In argument: `a = rlang::env(a = 1)`.
-      i In group 1: `x = 1`, `y = 1`.
+      i In group 1: `x = 1` and `y = 1`.
       Caused by error:
       ! `a` must be a vector, not an environment.
     Code
